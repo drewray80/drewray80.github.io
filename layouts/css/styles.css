@@ -767,6 +767,10 @@ video {
   background-color: rgb(241 245 249 / 0.5);
 }
 
+.bg-slate-100\/90 {
+  background-color: rgb(241 245 249 / 0.9);
+}
+
 .bg-cover {
   background-size: cover;
 }
