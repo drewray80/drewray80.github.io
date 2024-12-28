@@ -12,34 +12,38 @@
 
                 <!--Home Icon-->
                 <div class="flex items-center justify-between md:w-auto w-full">
-                    <a href="https://drewray80.github.io/" class="pxy-5 px-2 text-white flex-1"><img src="layouts\images\home.svg" alt="Clickable Image"></a>
+                    <a href="#" class="pxy-5 px-2 text-white flex-1 font-bold">Home</a>
                     
                     <!-- Mobile Menu-->
                     <div class="md:hidden flex items-center"> 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
                           </svg>     
+                    </div>         
+                </div>
+
+                <!--Menu -->
+                <div class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 pb-3 md:pb-0 navigation-menu">
+                    
+                    <!-- Dropdown-->
+                    <div class="relative">
+                        <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-sky-800 flex items-center gap-2 rounded">
+                            <span class="pointer-events-none select-none">About</span>
+                            <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>                            
+                        </button>
+                        <div class="dropdown-menu absolute hidden bg-sky-700 text-white rounded-b-lg pb-2 w-48">
+                            <a href="#" class="block px-6 py-2 hover:bg-sky-800">Me</a>
+                            <a href="#" class="block px-6 py-2 hover:bg-sky-800">This Site</a>
+                        </div>
                     </div>
                     
+                    <a href="#" class="py-2 px-3 block">Contact</a>
                     
                 </div>
-            </div>
 
-            <!--Menu -->
-            <div class="hidden md:flex-row flex-col items-center justify-start md:space-x-1 pb-3 md:pb-0 navigation-menu">
 
-                <!-- Dropdown-->
-                <div class="relative">
-                    <button type="button" class="dropdown-toggle py-2j px-3 hover:bg-sky-800 flex items-center gap-2 rounded">
-                        <span class="pointer-events-none">About</span>
-                    </button>
-                    <div class="dropdown-menu absolute hidden bg-sky-700 text-white rounded-b-lg pb-2 w-48">
-                        <a href="#" class="block px-6 py-2 hover:bg-sky-800">Me</a>
-                        <a href="#" class="block px-6 py-2 hover:bg-sky-800">This Site</a>
-                    </div>
-                </div>
-                
-            </div>
+            </div>           
         </nav>
     </body>
 </html>
