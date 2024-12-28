@@ -626,16 +626,16 @@ video {
   height: 0.75rem;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-48 {
   width: 12rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
 }
 
 .flex-1 {
