@@ -1,73 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- npx tailwindcss -i ./tailwindinput.css -o ./layouts/css/styles.css --watch -->
- <!-- https://www.youtube.com/watch?v=h_xmLBxS5SA -->
- <!-- https://www.youtube.com/playlist?list=PL0Zuz27SZ-6M8znNpim8dRiICRrP5HPft -->
+<!-- https://www.youtube.com/watch?v=h_xmLBxS5SA -->
+<!-- https://www.youtube.com/playlist?list=PL0Zuz27SZ-6M8znNpim8dRiICRrP5HPft -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ray's Resources</title>
-        <link href="layouts/css/styles.css" rel="stylesheet">
-        <script src="scripts/script.js"></script>
-    </head>
-    
-    <body class="w-full min-h-screen bg-green-900 bg-top bg-cover bg-no-repeat" style="background-image: url('layouts/images/mtn_boarder.jpeg')">
-        <nav class="bg-green-900 text-white">
-            <div class="container mx-auto px-4 md:flex items-center gap-6">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ray's Resources</title>
+    <link href="layouts/css/styles.css" rel="stylesheet" />
+    <script src="scripts/script.js"></script>
+  </head>
 
-                <!--Home Icon-->
-                <div class="flex items-center justify-between md:w-auto w-full">
-                    <a href="index.html" class="pxy-5 px-2 text-white flex-2 font-bold">Home</a>
-                    
-                    <!-- Mobile Menu-->
-                    <div class="md:hidden flex items-center"> 
-                        <button type="button" class="mobile-menu-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
-                            </svg>
-                        </button>     
-                    </div>         
-                </div>
+  <body
+    class="w-full min-h-screen bg-green-900 bg-top bg-cover bg-no-repeat"
+    style="background-image: url(&quot;layouts/images/mtn_boarder.jpeg&quot;)"
+  >
+    <nav class="bg-green-900 text-white">
+      <div class="container mx-auto px-4 md:flex items-center gap-6">
+        <!--Home Icon-->
+        <div class="flex items-center justify-between md:w-auto w-full">
+          <a href="index.html" class="pxy-5 px-2 text-white flex-2 font-bold"
+            >Home</a
+          >
 
-                <!--Menu -->
-                <div class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 pb-3 md:pb-0 navigation-menu">
-                    
-                    <!-- Dropdown-->
-                    <div class="relative">
-                        <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-green-800 flex items-center gap-2 rounded">
-                            <span class="pointer-events-none select-none">About</span>
-                            <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>                            
-                        </button>
-                        <div class="dropdown-menu absolute hidden bg-green-700 text-white rounded-b-lg pb-2 w-48">
-                            <a href="aboutMe.html" class="block px-6 py-2 hover:bg-green-800">Me</a>
-                            <a href="aboutSite.html" class="block px-6 py-2 hover:bg-green-800">This Site</a>
-                        </div>
-                    </div>
-                    
-                    <a href="educationalResources.html" class="py-2 px-3 block">Educational Resources</a>
-                    <a href="#" class="py-2 px-3 block">Personal Projects</a>
-                    <a href="https://github.com/drewray80" target="_blank" class="py-2 px-3 block">My GitHub</a>
+          <!-- Mobile Menu-->
+          <div class="md:hidden flex items-center">
+            <button type="button" class="mobile-menu-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
 
-                </div>
-            </div>           
-        </nav>
+        <!--Menu -->
+        <div
+          class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 pb-3 md:pb-0 navigation-menu"
+        >
+          <!-- Dropdown-->
+          <div class="relative">
+            <button
+              type="button"
+              class="dropdown-toggle py-2 px-3 hover:bg-green-800 flex items-center gap-2 rounded"
+            >
+              <span class="pointer-events-none select-none">About</span>
+              <svg
+                class="w-3 h-3 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+            <div
+              class="dropdown-menu absolute hidden bg-green-700 text-white rounded-b-lg pb-2 w-48"
+            >
+              <a href="aboutMe.html" class="block px-6 py-2 hover:bg-green-800"
+                >Me</a
+              >
+              <a
+                href="aboutSite.html"
+                class="block px-6 py-2 hover:bg-green-800"
+                >This Site</a
+              >
+            </div>
+          </div>
 
-        <main class="max-w-6xl mx-auto">
-            <section id="hero" class="flex  justify-start sm:flex-row p-6 items-center gap-8 mb-12" >
-                <article class="sm:w-1/2 bg-slate-100/60 rounded-lg p-6">
-                    <h2 class="max-w-md md:text-7xl font-bond text-center text-5xl sm:text-left text-slate-900"><span class="text-sky-900">Innovative Education</span> <br>
-                        for Computer Science.
-                    </h2>
-                    <p class="md:text-2xl mt-4 text-center text-xl sm:text-left text-slate-900">
-                        I strive to find or create engaging educational resources for my CS courses.
-                    </p>
-                    <p class="md:text-2xl mt-4 text-center text-xl sm:text-left text-slate-900">
-                        This website was created to share those resources with other educators.
-                    </p>
-                </article>
-            </section>
-            <hr class="mx-auto bg-black w-1/2">
-        </main>
-    </body>
+          <a href="educationalResources.html" class="py-2 px-3 block"
+            >Educational Resources</a
+          >
+          <a href="#" class="py-2 px-3 block">Personal Projects</a>
+          <a
+            href="https://github.com/drewray80"
+            target="_blank"
+            class="py-2 px-3 block"
+            >My GitHub</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto">
+      <section
+        id="hero"
+        class="flex justify-start sm:flex-row p-6 items-center gap-8 mb-12"
+      >
+        <article class="sm:w-1/2 bg-slate-100/60 rounded-lg p-6">
+          <h2
+            class="max-w-md md:text-7xl font-bond text-center text-5xl sm:text-left text-slate-900"
+          >
+            <span class="text-sky-900">Innovative Education</span> <br />
+            for Computer Science.
+          </h2>
+          <p
+            class="md:text-2xl mt-4 text-center text-xl sm:text-left text-slate-900"
+          >
+            I strive to find or create engaging educational resources for my CS
+            courses.
+          </p>
+          <p
+            class="md:text-2xl mt-4 text-center text-xl sm:text-left text-slate-900"
+          >
+            This website was created to share those resources with other
+            educators.
+          </p>
+        </article>
+      </section>
+      <hr class="mx-auto bg-black w-1/2" />
+    </main>
+  </body>
 </html>
