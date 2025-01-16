@@ -65,7 +65,8 @@
       </section>
     </header>
 
-    <main class="max-w-4xl mx-auto">
+    <main class="max-w-5xl mx-auto">
+      <!--hero-->
       <section
         id="hero"
         class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
@@ -99,6 +100,7 @@
 
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
 
+      <!-- hardware -->
       <section
         id="hardware"
         class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
@@ -182,22 +184,29 @@
 
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
 
+      <!-- colabs -->
       <section
         id="colabs"
-        class="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
+        class="p-6 my-12 align-top scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
       >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
-        >
-          Colabs
-        </h2>
+        <div class="flex flex-col-reverse sm:flex-row items-center justify-center">
+          <h2
+            class="text-4xl font-bold text-center content-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
+          >
+            Colabs
+          </h2>
+          <img
+            class="w-1/2 rounded-lg items-center "
+            src="./layouts/images/colab_logo.png"
+            alt="google colab logo"
+          />
+        </div>
         <figure class="my-12">
           <blockquote
             class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
           >
-            <p
-              class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
-            >
+            <p class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400">
+            <!--class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"-->
               Jupyter Notebooks that will run Python on a Google server through
               a browser. This allows us to work on colabs from
               <span class="italic">any device</span> with internet.
@@ -206,43 +215,39 @@
           <figcaption
             class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212; Including school Chromebooks
+            <!--&#8212;--> Including school Chromebooks
           </figcaption>
         </figure>
         <figure class="my-12">
           <blockquote
             class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
           >
-            <p
-              class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
-            >
+            <p class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400">
               Colabs include text blocks that can be used for notes and code
               blocks that allow students to try concepts. This makes colabs
               great for scaffolded notes.
             </p>
           </blockquote>
           <figcaption
-            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+            class="text-xl sm:text-2xl text-left mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212; Creates truly interactive notes
+            <!--&#8212;--> Creates truly interactive notes
           </figcaption>
         </figure>
         <figure class="my-12">
           <blockquote
             class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
           >
-            <p
-              class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
-            >
+            <p class="text-2xl sm:3xl text-left mt-2 text-white dark:text-slate-400 ">
               Even free tier colabs has access to some &#8212;
               <span class="italic">Google GPUs and TPUs</span> &#8212; that are
               capable of <q class="italic">running AI models</q>.
             </p>
           </blockquote>
           <figcaption
-            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+            class="text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212; Great for learning, experimenting and developing with AI
+            Great for learning, experimenting and developing with AI
           </figcaption>
         </figure>
       </section>
