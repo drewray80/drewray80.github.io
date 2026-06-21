@@ -8,7 +8,7 @@
 
 .navbar {
     background: #131313;
-    height: 80px;
+    height: 80px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +95,54 @@
 .navbar__links:hover {
     color: #9518fc;
     transition: all 0.3s ease;
+}
+
+.spain {
+    background: #131313;
+    color: #AA151B;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+};
+    
+
+.spain_header {
+    display: flex;
+}
+
+.spain_header li {
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#span_flag_img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    align-items: center;
+    background: #AA151B;
+    color: #ffff;
+
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.galleryImg {
+    width: 100%;
+    border-radius: 10px;
 }
