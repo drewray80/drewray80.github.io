@@ -109,10 +109,11 @@
     
 
 .spain_header {
-    display: flex;
+    display: block;
 }
 
 .spain_header li {
+    display: block;
     list-style: none;
     text-align: center;
     font-size: 2rem;
