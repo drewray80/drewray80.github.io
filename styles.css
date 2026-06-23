@@ -97,32 +97,27 @@
     transition: all 0.3s ease;
 }
 
-.spain {
+.spain_header {
     background: #131313;
     color: #AA151B;
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-};
-    
-
-.spain_header {
-    display: block;
-}
-
-.spain_header li {
-    display: block;
-    list-style: none;
-    text-align: center;
     font-size: 2rem;
-    padding: 10px;
-}
+    font-style: italic;
+};
 
-#span_flag_img {
+#spain_flag_img {
     width: 100%;
     height: auto;
+}
+
+#france_flag_img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
 }
 
 .gallery {
@@ -132,7 +127,15 @@
     align-items: center;
     background: #AA151B;
     color: #ffff;
+}
 
+#france_gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    align-items: center;
+    background: #1562aa;
+    color: #ffff;
 }
 
 .galleryItem {
@@ -147,3 +150,30 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.france_header {
+    background: #131313;
+    color: #1530aa;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    font-style: italic;
+};
+
+
+/* @media screen and (max-width:600px) {
+    nav {
+        padding: 20px;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+
+    .navBottom {
+        flex-wrap: wrap;
+    }
+} */
