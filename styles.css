@@ -313,6 +313,19 @@
     height: auto;
 }
 
+.random_header {
+    background: #131313;
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 20px 0 20px 0;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -358,6 +371,15 @@
     background: #ffcc00;
     background: -webkit-linear-gradient(to bottom, rgb(50,50,50), #dd0000, #ffcc00);
     background: linear-gradient(to bottom, rgb(50,50,50), #dd0000, #ffcc00);
+    color: #ffff;
+}
+
+#random_gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    align-items: center;
+    background: #131313;
     color: #ffff;
 }
 
