@@ -127,7 +127,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 60vh;
+    height: 80vh;
     font-size: 1.6rem;
   }
 
@@ -219,6 +219,13 @@
     align-items: center;
   }
 
+  .random_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #spain_flag {
     width: 80%;
     height: auto;
@@ -240,6 +247,42 @@
   }
 }
 
+.hero {
+    /* Full viewport dimensions */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Center content using Flexbox */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    
+    /* Background image with dark overlay */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/hero1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    /* Align text to the left */
+    text-align: left;
+    
+    /* Increase font size */
+    font-size: 3rem; /* Adjust this value (e.g., 2rem, 4rem) */
+    font-style: italic;
+    max-width: 800px; /* Prevents text from stretching too wide on large screens */
+}
+
+/* Optional: Make subtext slightly smaller than the headline */
+.hero-content p {
+    font-size: 1.5rem; 
+    margin-top: 10px;
+}
 
 .spain_header {
     background: #131313;
